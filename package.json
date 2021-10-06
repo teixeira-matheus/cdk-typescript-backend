@@ -1,0 +1,28 @@
+{
+  "name": "cdk-typescript-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teixeira-matheus/cdk-typescript-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teixeira-matheus/cdk-typescript-backend/issues"
+  },
+  "homepage": "https://github.com/teixeira-matheus/cdk-typescript-backend#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "aws-cdk": "^2.0.0-rc.23",
+    "aws-cdk-lib": "^2.0.0-rc.23",
+    "constructs": "^3.3.160",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
