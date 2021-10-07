@@ -2,3 +2,24 @@
 @endpoint = https://lambdaurlwhenitworks
 GET {{endpoint}}/hello/
 ###
+
+GET {{endpoint}}/spaces?spacesId=someId
+###
+
+GET {{endpoint}}/spaces?location=London
+###
+
+PUT {{endpoint}}/spaces?spacesId=someId
+Content-Type: application/json
+{
+  "location": "Brazil"
+}
+###
+
+POST {{endpoint}}/spaces/
+Content-Type: application/json
+
+{
+  "location": "London",
+  "name": "Best location"
+}
